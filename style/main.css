@@ -95,20 +95,12 @@ a {
 
 @media screen and (max-width: 991px) {
   .project__background {
-	position: absolute;
-	background-color: #96ADFF;
-	width: 500px;
-	height: 500px;
 	right: -220px;
-	bottom: 0;
-	transform: skew(-15deg);
 	}
 }
 
 @media screen and (max-width:767px) {
 	.project__background {
-	position: absolute;
-	background-color: #96ADFF;
 	width: 600px;
 	height: 500px;
 	left: 0;
@@ -119,12 +111,22 @@ a {
 	.project__link {
 		margin-bottom: 200px;
 	}
+
+	.intro {
+		margin-bottom: 50px;
+		margin-top: 70px;
+	}
 }
 
 @media screen and (max-width: 575px) {
 	.container {
 		padding-left: 30px;
 		padding-right: 30px;
+	}
+
+	.intro {
+		margin-bottom: 50px;
+		margin-top: 70px;
 	}
 }
 
