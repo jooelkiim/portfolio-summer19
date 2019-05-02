@@ -124,12 +124,35 @@ a {
 		padding-right: 30px;
 	}
 
+	.navbar__item {
+		font-size: 15px;
+	}
+
 	.intro {
 		margin-bottom: 50px;
 		margin-top: 70px;
 	}
-}
 
+	.intro__title {
+		font-size: 40px;
+	}
+
+	.intro__subtitle {
+		font-size: 22px;
+	}
+
+	.project__title {
+		font-size: 32px;
+	}
+
+	.project__desc {
+		font-size: 22px;
+	}
+
+	.project__link {
+		font-size: 16px;
+	}
+}
 
 
 
