@@ -123,8 +123,8 @@ a {
 
 @media screen and (max-width: 575px) {
 	.container {
-		padding-left: 45px;
-		padding-right: 45px;
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 }
 
