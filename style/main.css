@@ -88,15 +88,45 @@ a {
 	background-color: #96ADFF;
 	width: 500px;
 	height: 500px;
-	right: -110px;
+	right: -90px;
 	bottom: 0;
-	transform: skew(-20deg);
+	transform: skew(-15deg);
 }
 
+@media screen and (max-width: 991px) {
+  .project__background {
+	position: absolute;
+	background-color: #96ADFF;
+	width: 500px;
+	height: 500px;
+	right: -220px;
+	bottom: 0;
+	transform: skew(-15deg);
+	}
+}
 
+@media screen and (max-width:767px) {
+	.project__background {
+	position: absolute;
+	background-color: #96ADFF;
+	width: 600px;
+	height: 500px;
+	left: 0;
+	bottom: -300px;
+	transform: skewY(8deg);
+	}
 
+	.project__link {
+		margin-bottom: 200px;
+	}
+}
 
-
+@media screen and (max-width: 575px) {
+	.container {
+		padding-left: 45px;
+		padding-right: 45px;
+	}
+}
 
 
 
