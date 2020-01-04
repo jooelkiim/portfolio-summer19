@@ -177,4 +177,8 @@ p,
 	.project__desc {
 		font-size: 18px;
 	}
+
+	.project__image {
+		margin-top: 32px;
+	}
 }
