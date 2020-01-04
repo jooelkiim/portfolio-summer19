@@ -13,6 +13,10 @@ h1 {
 	font-weight: 700;
 }
 
+h4 {
+	margin-top: 20px;
+}
+
 .container {
 	max-width: 800px;
 }
@@ -21,6 +25,30 @@ p,
 .font-light {
 	font-weight: 400px;
 	font-family: 'Lato', sans-serif;
+}
+
+.spacing-top--sm {
+	margin-top: 32px;
+}
+
+.spacing-top--md {
+	margin-top: 64px;
+}
+
+.spacing-top--lg {
+	margin-top: 128px;
+}
+
+.spacing-bottom--sm {
+	margin-bottom: 32px;
+}
+
+.spacing-bottom--md {
+	margin-bottom: 64px;
+}
+
+.spacing-bottom--lg {
+	margin-bottom: 128px;
 }
 
 .nav {
@@ -97,3 +125,11 @@ p,
 	border-bottom: 1px solid #6220B6;
 }
 
+.userFlow {
+	max-width: 100%;
+}
+
+.design__options-subtitle {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}

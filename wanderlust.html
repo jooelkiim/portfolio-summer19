@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Joel Kim | Product Designer</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link href="style/project.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <div class="container spacing-bottom--lg">
+        <div class="home-link">
+          <a href="index.html">Joel Kim</a>
+        </div>
+        <div class="intro">
+          <h1 class="intro__title">Wanderlust App</h1>
+          <h2 class="intro__subtitle font-light spacing-bottom--md">Designing an app to help people discover travel destinations and plan trips</h2>
+          <p class="intro__detail"><span class="color-purple font-weight--bold">Role: </span>Sole product designer (individual project)</p>
+          <p class="intro__detail"><span class="color-purple font-weight--bold">Tools: </span>Figma</p>
+          <p class="intro__detail"><span class="color-purple font-weight--bold">Timeline: </span>8 weeks</p>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <img src="images/wanderlust-mockups.png" alt="Mockup image for Wanderlust app" class="project-image">
+      </div>
+      <div class="container">
+        <h3>Context</h3>
+        <p>Wanderlust is an IOS app designed to help people find new travel destinations and plan trips</p>
+        <h3>Problem</h3>
+        <p>The process of planning trips and vacations is time consuming and difficult, from first confirming a destination to choosing attractions to visit, and finally planning how to spend the limited time of the trip.</p>
+        <p>To gain more context on the challenges of trip planning, I conducted a survey among peers who have recently gone on an international trip or vacation. The questions asked were:</p>
+        <ul>
+          <li>Have you gone on a vacation or voluntary trip recently? What was the most difficult part of the planning process?</li>
+          <li>How did you decide the destination of your last trip? How did you first learn of this location?</li>
+          <li>Do you make itineraries or loose schedules when on trips? How accurately do you follow them?</li>
+        </ul>
+        <p>The takeaways of these questions were mainly in two categories: discovery and scheduling. While some travelers have a set destination in mind, many find themselves searching for the perfect destination that will give them just the experience they are looking for—this process requires long hours of searching through Google to find and narrow down the candidates. Additionally, scheduling and creating itineraries for these trips is tedious, and these schedules are often ineffective due to unpredictable factors such as time and travel.</p>
+        <h4 class="color-purple spacing-top--sm">Problem 1: Discovery</h4>
+        <ul>
+          <li>People may have an idea or a desire to go to a certain place, but not know what attractions or activities that place has to offer.</li>
+          <li>People may know what kind of destination they want to visit, for example tropical or urban locations, but not know the top options in these categories</li>
+          <li>It’s difficult to search for possible destinations given constraints such as budget, location and travel distance, desired experience, etc.</li>
+        </ul>
+        <h4 class="color-purple spacing-top--sm">Problem 2: Scheduling</h4>
+        <ul>
+          <li>
+            Planning is time consuming, and set schedules are often not followed because of unpredictable factors such as time
+            <ul>
+              <li>Even with an itinerary, being in a new country or city often means people do not know what method of transportation they will take.</li>
+              <li>Travelling with more than one person also creates delays and miscommunication, making a specific itinerary difficult to follow.</li>
+            </ul>
+          </li>
+        </ul>
+        <h3>Goal</h3>
+        <p>To help users find destinations they would love, and make the planning process easier and more flexible.</p>
+        <p><b>KPIs:</b> Number of trips created, number of destinations saved, in-app surveys (how accurately did you follow the itinerary?)</p>
+        <h3>Competitive Analysis</h3>
+        <h4 class="color-purple spacing-bottom--sm">Trip Advisor</h4>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/tripadvisor.png" alt="" class ="project-image">
+          </div>
+          <div class="col-md-6">
+            <p><b>Strengths</b></p>
+            <ul>
+              <li>End to end booking experience</li>
+              <li>Great recommendations when a location is set</li>
+            </ul>
+            <p><b>Limitations</b></p>
+            <ul>
+              <li>Discovery of travel destinations is limited and hard to find</li>
+              <li>Itineraries are created through Tripadvisor are inflexible, as they rely on pre-purchased tickets and time windows</li>
+            </ul>
+          </div>
+        </div>
+        <h4 class="color-purple spacing-top--md spacing-bottom--sm">Airbnb</h4>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/airbnb-adventures.png" alt="" class="project-image">
+          </div>
+          <div class="col-md-6">
+            <img src="images/airbnb-experiences.png" alt="" class="project-image">
+          </div>
+        </div>
+        <p class="spacing-top--sm"><b>Strengths</b></p>
+        <ul>
+          <li>Wide selection of exclusive experiences and places to stay</li>
+          <li>Verified, crowd-sourced reviews</li>
+        </ul>
+        <p><b>Limitations</b></p>
+        <ul>
+          <li>Difficult to explore things to do in specific locations</li>
+          <li>Lack of organization to the adventures and experiences shown—why are these particular items recommended?</li>
+          <li>No categorization of locations, for example by region (Southeast Asia)</li>
+        </ul>
+        <h3>Storyboard and Wireframes</h3>
+         <p>To form the wireframes of various pages of the app, a storyboard was created starting from discovery of travel destinations to planning itineraries for trips. The flow starts with a page dedicated to showcasing locations with carousels used to group categories such as types of destinations, as well as the most popular ones. For people who have a destination in mind, the search bar can be used to quickly explore attractions in the area of interest.</p>
+        <p>The next step in the storyboard is entering the types of destinations page to view categories such as tropical and urban, then tapping into tropical to see the full list of destinations in this category.</p>
+        <p>The following 3 wireframes (Cancun, Chichen Itza, and Oxtun) demonstrate the details page for locations, attractions and restaurants. By entering the Cancun page, the user can see popular attractions in the city that they may want to save, and in the attractions page, the user can view nearby popular restaurants they may want to stop by.</p>
+        <p>Finally in the saved tab, users can view the locations, places and restaurants they have “liked”, and a sticky CTA “Plan trip” is shown. When tapped, users will be able to create detailed itineraries based on the items of their saved list.</p>
+      </div>
+      <div class="container-fluid">
+        <img src="images/wanderlust-userflow.png" alt="User flow for the app Wanderlust" class="project-image">
+      </div>
+      <div class="container">
+        <h3>Design Options</h3>
+        <h4 class="color-purple spacing-bottom--sm">Discovery 1</h4>
+        <div class="row">
+          <div class="col-md-5">
+            <img src="images/discover-1.png" alt="First design of discovery page" class="project-image design__options-image">
+          </div>
+          <div class="col-md-7 left-padding--desktop-only">
+            <p>This is the first page that is shown when a user opens the app. It’s focused on discovery of travel destinations, categorizing places by the type of destination, popularity, and so on. </p>
+          </div>
+        </div>
+        
+        <h4 class="color-purple spacing-top--md spacing-bottom--sm">Discovery 2</h4>
+        <div class="row">
+          <div class="col-md-5">
+            <img src="images/discover-2.png" alt="Second design of discovery page" class="project-image design__options-image">
+          </div>
+          <div class="col-md-7 left-padding--desktop-only">
+            <p>Building off the first iteration, this design allows for a more personalized experience and also lets the user easily access their profile. With this approach, the categories shown below will be more personalized to the user based on their saved items and interests. Additionally, the question “Where do you want to go?” is now paired with a greeting to welcome the user. </p>
+          </div>
+        </div>
+        <h4 class="color-purple spacing-top--md spacing-bottom--sm">Types of Destinations</h4>
+        <div class="row">
+          <div class="col-md-5">
+            <img src="images/destination-types.png" alt="Types of destinations page" class="project-image design__options-image">
+          </div>
+          <div class="col-md-7 left-padding--desktop-only">
+            <p>This page groups by the nature of the location, for example tropical or urban. The idea behind this decision is that users may have a general preference for a type of vacation or trip, and want to explore all their options. A grid is used to display as many types as possible to show the variety of locations on the platform.</p>
+          </div>
+        </div>
+        <h4 class="color-purple spacing-top--md spacing-bottom--sm">Destinations List 1</h4>
+        <div class="row">
+          <div class="col-md-5">
+            <img src="images/tropical-destinations-1.png" alt="first design of destination list page" class="project-image design__options-image">
+          </div>
+          <div class="col-md-7 left-padding--desktop-only">
+            <p>In this page, specific locations that are considered tropical are shown. This first iteration focuses on maximizing the size of the image for each location as images are an effective and captivating way of showcasing each place. The metadata of each location is the relative price represented with the dollar signs, the estimated flight distance from the user’s nearest airport, and a general rating of the location.</p>
+            <p><b>Strengths</b></p>
+            <ul>
+              <li>Full width images are the main focus</li>
+              <li>Visually captivating</li>
+            </ul>
+            <p><b>Limitations</b></p>
+            <ul>
+              <li>Contrast between text and background image is a variable</li>
+            </ul>
+          </div>
+        </div>
+        <h4 class="color-purple spacing-top--md spacing-bottom--sm">Destinations List 2</h4>
+        <div class="row">
+          <div class="col-md-5">
+            <img src="images/tropical-destinations-2.png" alt="second design of destination list page" class="project-image design__options-image">
+          </div>
+          <div class="col-md-7 left-padding--desktop-only">
+            <p>This iteration also shows the image of each location in full width, however now has the information shown underneath over a white background. This ensures that the text is always legible and accessible.</p>
+            <p><b>Strengths</b></p>
+            <ul>
+              <li>Full width images.</li>
+              <li>Text is always accessible</li>
+            </ul>
+            <p><b>Limitations</b></p>
+            <ul>
+              <li>Less locations visible without scrolling</li>
+            </ul>
+          </div>
+        </div>
+        <h4 class="color-purple spacing-top--md spacing-bottom--sm">Location Details</h4>
+        <p>These are the detail pages for destinations, as well as their attractions such as restaurants, activities, and resorts. The user is able to favorite locations and attractions with the heart icon, which adds them to the “Saved” tab. As the user scrolls, related and nearby attractions are shown to help the user plan their trip.</p>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="images/location-city.png" alt="city page" class="project-image design__options-image">
+          </div>
+          <div class="col-md-4">
+            <p></p>
+            <img src="images/location-attraction.png" alt="attractions page" class="project-image" design__options-image>
+          </div>
+          <div class="col-md-4">
+            <img src="images/location-food.png" alt="food page" class="project-image" design__options-image>
+          </div>
+        </div>
+        <h4 class="color-purple spacing-top--md spacing-bottom--sm">Saved Locations</h4>
+        <div class="row">
+          <div class="col-md-5">
+            <img src="images/saved1.png" alt="first saved page" class="project-image design__options-image">
+          </div>
+          <div class="col-md-7 left-padding--desktop-only">
+            <p>This is the first page shown on the second tab that shows a list of all the user’s saved locations. For example, if a user taps the heart icon for an attraction in Cancún, Cancún would be shown in this list, with the attraction shown in the saved location details page.</p>
+          </div>
+        </div>
+        <h4 class="color-purple spacing-top--md spacing-bottom--sm">Saved Location Details</h4>
+        <div class="row">
+          <div class="col-md-5">
+            <img src="images/saved2.png" alt="second saved page" class="project-image design__options-image">
+          </div>
+          <div class="col-md-7 left-padding--desktop-only">
+            <p>This page shows the saved attractions in the particular location, with a CTA to plan a trip. This action of planning a trip is currently being designed, and will result in flexible itineraries which will be in the Trips tab.</p>
+          </div> 
+        </div>
+        <h3 class="spacing-top--md">Reflection and Next Steps</h3>
+        <p>Working on the Wanderlust app taught me a lot about product strategy (how my designs would actually be built by developers, how it could generate revenue, etc.) and iOS design patterns. One of the takeaways from this project is the importance of user research. It is difficult to know the thought process of how people tend to plan trips, from the destination, to choosing attractions and restaurants. This is further complicated by the fact that people have varying ways of planning trips. While I spoke with potential users among my peers, a more rigorous user testing method would have helped guide the design process and lead to stronger conclusions. Another takeaway is that while it is important to deeply understand design patterns of specific platforms such as iOS, it is also important to consider other platforms and how the design would adapt to them.</p>
+        <p>The next step for this project is to run user testing sessions with the Figma prototype, as well as designing the scheduling flow allow users to turn saved items into a complete trip in the app. A social feature would also be added, which would allow multiple users to collaborate on the same trips.</p>
+      </div>
+    </body>
+  </html>
