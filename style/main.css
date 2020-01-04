@@ -51,6 +51,7 @@ p,
 	margin-bottom: 128px;
 }
 
+
 .nav {
 	margin-top: 32px;
 	margin-bottom: 90px;
@@ -73,7 +74,7 @@ p,
 
 .intro__subtitle {
 	font-size: 24px;
-	color: #555;
+	color: #777;
 	margin-top: 16px;
 	line-height: 1.6;
 }
@@ -132,4 +133,44 @@ p,
 .design__options-subtitle {
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
+
+@media(max-width: 575px) {
+	h1 {
+		font-size: 40px;
+	}
+
+	.intro__subtitle {
+		font-size: 18px;
+	}
+
+	.intro__detail {
+  		font-size: 15px;
+  		margin-bottom: 12px;
+	}
+
+	h3 {
+		font-size: 32px;
+	}
+
+	p,
+	li {
+		font-size: 16px;
+		line-height: 1.8;
+	}
+
+	.nav__item {
+		font-size: 16px;
+	}
+
+	.project {
+		margin-top: 64px;
+		margin-bottom: 64px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.project__desc {
+		font-size: 18px;
+	}
 }

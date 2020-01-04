@@ -32,6 +32,7 @@ h4 {
 
 p {
   font-size: 18px;
+  line-height: 1.7;
 }
 
 .container {
@@ -55,6 +56,10 @@ p,
 
 .spacing-top--lg {
 	margin-top: 128px;
+}
+
+.spacing-bottom-xs {
+	margin-bottom: 16px;
 }
 
 .spacing-bottom--sm {
@@ -112,6 +117,31 @@ p,
 .intro__detail {
   font-size: 18px;
   margin-bottom: 16px;
+}
+
+@media(max-width: 575px) {
+	h1 {
+		font-size: 40px;
+	}
+
+	.intro__subtitle {
+		font-size: 18px;
+	}
+
+	.intro__detail {
+  		font-size: 15px;
+  		margin-bottom: 12px;
+	}
+
+	h3 {
+		font-size: 32px;
+	}
+
+	p,
+	li {
+		font-size: 16px;
+		line-height: 1.8;
+	}
 }
 
 .project__link {
