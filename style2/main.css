@@ -4,10 +4,9 @@ a:visited,
 a:active,
 a:hover {
 	text-decoration: none;
-	color: #2079c7;
+	color: #6220B6;
 	font-family: 'Lato', sans-serif;
 }
-
 
 h1 {
 	font-family: 'Lato', sans-serif;
@@ -69,15 +68,12 @@ p,
 	margin-right: 32px;
 }
 
-
 .intro {
 	margin-top: 150px;
 }
 
 .intro__title {
-	font-weight: 300;
-	letter-spacing: -2px;
-	font-size: 60px;
+	font-size: 48px;
 }
 
 .intro__subtitle {
@@ -109,17 +105,17 @@ p,
 }
 
 .project__name {
-	font-size: 56px;
+	font-size: 36px;
 	margin-top: 16px;
 }
 
 .project__tag-text {
-	font-size: 24px;
+	font-size: 14px;
 	color: #FFF;
-	background-color: #2079c7;
+	background-color: #6220B6;
 	display: inline-block;
 	padding: 2px 12px;
-	border-radius: 4px;
+	border-radius: 20px;
 }
 
 .project__desc {
@@ -131,7 +127,7 @@ p,
 .project__link {
 	padding-top: 6px;
 	padding-bottom: 6px;
-	border-bottom: 1px solid #2079c7;
+	border-bottom: 1px solid #6220B6;
 }
 
 .userFlow {
@@ -184,90 +180,5 @@ p,
 
 	.project__image {
 		margin-top: 32px;
-		
 	}
-}
-
-.gallery {
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
-  -webkit-column-width: 33%;
-  -moz-column-width: 33%;
-  column-width: 33%;
-
-}
-
-.gallery .pics {
-  -webkit-transition: all 350ms ease;
-  transition: all 350ms ease;
-}
-
-.gallery .animation {
-/*  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);*/
-}
-
-@media (max-width: 450px) {
-  .gallery {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-    -webkit-column-width: 100%;
-    -moz-column-width: 100%;
-    column-width: 100%;
-  }
-}
-
-@media (max-width: 400px) {
-  .btn.filter {
-    padding-left: 1.1rem;
-    padding-right: 1.1rem;
-  }
-}
-
-.beautyMax {
-	width: 100%;
-	height: 192px;
-	object-fit: cover;
-}
-
-.broadway {
-	width: 100%;
-	height: 363px;
-	object-fit: cover;
-}
-
-.row1{
-	padding-right: 5px;
-	margin-left: -15px;
-}
-
-.row2 {
-	margin-left: -5px;
-	margin-right: -5px;
-}
-
-.row3 {
-	margin-right: -15px;
-	margin-left: 5px;
-}
-
-.guitarTaylor {
-	width: 100%;
-	height: 435px;
-	object-fit: cover;
-}
-
-.porcheInside {
-	width: 100%;
-	height: 182px;
-	object-fit: cover;
-}
-
-.porcheOutside {
-	width: 100%;
-	height: 425px;
-	object-fit: cover;
 }

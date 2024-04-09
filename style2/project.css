@@ -4,13 +4,8 @@ a:visited,
 a:active,
 a:hover {
 	text-decoration: none;
-	color: #2079c7;
+	color: #6220B6;
 	font-family: 'Lato', sans-serif;
-}
-
-.container-fluid {
-	padding-left: 60px;
-	padding-right: 60px;
 }
 
 li {
@@ -85,7 +80,7 @@ p,
 }
 
 .color-purple {
-  color: #2079c7;
+  color: #6220B6;
 }
 
 .font-weight--bold {
@@ -152,7 +147,7 @@ p,
 .project__link {
 	padding-top: 6px;
 	padding-bottom: 6px;
-	border-bottom: 1px solid #2079c7;
+	border-bottom: 1px solid #6220B6;
 }
 
 .project-image {
